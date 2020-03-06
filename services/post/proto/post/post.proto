@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package authentication;
+package go.micro.srv.post;
 
-service Authentication {
+service Post {
 	rpc Call(Request) returns (Response) {}
 	rpc Stream(StreamingRequest) returns (stream StreamingResponse) {}
 	rpc PingPong(stream Ping) returns (stream Pong) {}

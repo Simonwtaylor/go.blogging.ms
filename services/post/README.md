@@ -1,11 +1,11 @@
-# Authentication Service
+# Post Service
 
-This is the Authentication service
+This is the Post service
 
 Generated with
 
 ```
-micro new authentication --namespace=go.micro --type=srv
+micro new post --namespace=go.micro --type=srv
 ```
 
 ## Getting Started
@@ -16,9 +16,9 @@ micro new authentication --namespace=go.micro --type=srv
 
 ## Configuration
 
-- FQDN: go.micro.srv.authentication
+- FQDN: go.micro.srv.post
 - Type: srv
-- Alias: authentication
+- Alias: post
 
 ## Dependencies
 
@@ -46,7 +46,7 @@ make build
 
 Run the service
 ```
-./authentication-srv
+./post-srv
 ```
 
 Build a docker image
